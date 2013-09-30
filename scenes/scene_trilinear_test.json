@@ -1,0 +1,107 @@
+{ 
+  "_type": "Scene", 
+  "_id": 1, 
+  "camera": { 
+    "_type": "Camera", 
+    "_id": 2, 
+    "frame": { 
+      "o": [ -4.449565, 1.006057, 1.367732 ], 
+      "x": [ 0.598144, -0.801389, 0.000000 ], 
+      "y": [ 0.322480, 0.240694, 0.915463 ], 
+      "z": [ -0.733642, -0.547579, 0.402401 ]
+    }, 
+    "view_dist": 1.430098, 
+    "image_width": 1.000000, 
+    "image_height": 1.000000, 
+    "image_dist": 1.000000, 
+    "focus_dist": 1.000000, 
+    "focus_aperture": 0.000000, 
+    "orthographic": false, 
+    "shutter": 1.000000
+  }, 
+  "lights": { 
+    "_type": "LightGroup", 
+    "_id": 3, 
+    "lights": [ 
+      { 
+        "_type": "PointLight", 
+        "_id": 4, 
+        "frame": { 
+          "o": [ 0.000000, 5.000000, 5.000000 ], 
+          "x": [ 1.000000, 0.000000, 0.000000 ], 
+          "y": [ 0.000000, 1.000000, 0.000000 ], 
+          "z": [ 0.000000, 0.000000, 1.000000 ]
+        }, 
+        "intensity": [ 50.000000, 50.000000, 50.000000 ]
+      }
+    ]
+  }, 
+  "prims": { 
+    "_type": "PrimitiveGroup", 
+    "_id": 5, 
+    "prims": [ 
+      { 
+        "_type": "Surface", 
+        "_id": 6, 
+        "frame": { 
+          "o": [ 4.500000, -1.500000, 0.000000 ], 
+          "x": [ 1.000000, 0.000000, 0.000000 ], 
+          "y": [ 0.000000, 1.000000, 0.000000 ], 
+          "z": [ 0.000000, 0.000000, 1.000000 ]
+        }, 
+        "material": { 
+          "_type": "Phong", 
+          "_id": 7, 
+          "normal_texture": null, 
+          "diffuse": [ 0.750000, 0.750000, 0.750000 ], 
+          "specular": [ 0.150000, 0.150000, 0.150000 ], 
+          "reflection": [ 0.000000, 0.000000, 0.000000 ], 
+          "blur_size": 0.000000, 
+          "exponent": 100.000000, 
+          "texture_mapping": true, 
+          "trilinear": true, 
+          "diffuse_texture": { 
+            "_type": "Texture", 
+            "_id": 8, 
+            "filename": "checkerboard_0.png", 
+            "flipy": true
+          }, 
+          "diffuse_texture_tri_1": { 
+            "_type": "Texture", 
+            "_id": 9, 
+            "filename": "checkerboard_1.png", 
+            "flipy": true
+          }, 
+          "diffuse_texture_tri_2": { 
+            "_type": "Texture", 
+            "_id": 10, 
+            "filename": "checkerboard_2.png", 
+            "flipy": true
+          }, 
+          "diffuse_texture_tri_3": { 
+            "_type": "Texture", 
+            "_id": 11, 
+            "filename": "checkerboard_3.png", 
+            "flipy": true
+          }, 
+          "specular_texture": null, 
+          "reflection_texture": null, 
+          "exponent_texture": null, 
+          "use_reflected": false
+        }, 
+        "shape": { 
+          "_type": "Quad", 
+          "_id": 12, 
+          "intersect_accelerator_use": true, 
+          "width": 100.000000, 
+          "height": 100.000000
+        }
+      }
+    ], 
+    "intersect_accelerator_use": false
+  }, 
+  "draw_opts": null, 
+  "raytrace_opts": null, 
+  "distribution_opts": null, 
+  "pathtrace_opts": null
+}
