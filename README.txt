@@ -9,15 +9,12 @@ ABOUT:
 	In Assignment 4, students implemented an advanced raytracing suite.
 	
 	The functionality I implemented in my assignment was:
-		Texture mapping (5)
-		Texture filtering (5)
-		Depth of Field (2.5) with Disk Sampling (2.5)
-		Distribution Raytracing - Soft Shadows (5)
-		Ambient Occlusion (5)
-		--> adding up to 25/25 (undergraduate normal credit).
+		Texture mapping 
+		Texture filtering 
+		Depth of Field with Disk Sampling
+		Distribution Raytracing - Soft Shadows
+		Ambient Occlusion
 
-	The PDF for the assignment can be found in this directory in PastuszenskiAssignment4Report.pdf.
-	
 	The large rendered image can be found in this directory; it's called big_render.png. 
 	It looks like something that could be on the cover of a computer graphics book!!
 
